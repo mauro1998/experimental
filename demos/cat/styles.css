@@ -1,0 +1,15 @@
+#animation{
+  overflow: hidden;
+  position: relative;
+}
+.absolute {
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.cat {
+  width: 400px;
+  height: 200px;
+  background: url(sprite.png) 0 0;
+}

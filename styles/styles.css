@@ -1,0 +1,143 @@
+/*
+Breakpoints:
+xs: 20em,
+sm: 34.375em,
+md: 48em,
+lg: 64em,
+xl: 78.5em,
+xxl: 100em
+*/
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,600,700|Roboto:300,400,500,700');
+
+html, body {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #555;
+}
+
+@media screen and (max-width: 48em) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 34.375em) {
+  html, body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  html, body {
+    font-size: 10px;
+  }
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+hr.thin {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  position: relative;
+}
+
+hr.thin:after {
+  content: '\002665';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: white;
+  color: #8c8b8b;
+  margin: auto;
+  font-size: 18px;
+  width: 25px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.block {
+  margin-bottom: 1em;
+}
+
+.block-ends {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.container {
+  max-width: 64em;
+  width: 100%;
+  margin: auto;
+  padding: 1em;
+}
+
+.color-pink {
+  color: #fb508a;
+}
+
+a {
+  text-decoration: none;
+  color: #fb508a;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Dosis";
+}
+h1 { font-size: 3em; }
+h2 { font-size: 2.6em; }
+h3 { font-size: 2.3em; }
+h4 { font-size: 2em; }
+h5 { font-size: 1.6em; }
+h6 { font-size: 1.3em; }
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+thead {
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  font-family: "Dosis";
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+th, td {
+  padding: .5em .2em;
+}
+
+td{
+  font-weight: lighter;
+}
+
+div#animation {
+  min-height: 50vh;
+  padding: 1em;
+  position: relative;
+}

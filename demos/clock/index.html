@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 Based Loader - Rolling Cube</title>
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="/polyfill.js"></script>
+  <script src="app.js"></script>
+</head>
+<body onload="onLoad()">
+  <div class="container">
+    <div class="text-center block">
+      <h3 class="block-ends color-pink">HTML5 Clock</h3>
+      <a href="/">Go Back</a>
+    </div>
+    <hr class="thin block">
+    <div id="animation">
+      <div class="absolute">
+        <div class="clock">
+          <div class="back-face">
+            <div class="arm"></div>
+            <div class="arm"></div>
+            <div class="bell"></div>
+            <div class="bell"></div>
+            <div class="handle"></div>
+            <div class="hammer"></div>
+          </div>
+          <div class="front-face">
+            <div class="lines">
+              <div class="line bold"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line bold"></div>
+            </div>
+            <div class="animated">
+              <div class="seconds" id="seconds"></div>
+              <div class="minutes" id="minutes"></div>
+              <div class="hours" id="hours"></div>
+              <div class="center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
