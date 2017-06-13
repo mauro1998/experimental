@@ -1,7 +1,6 @@
 .loader {
   width: 100px;
   height: 115px;
-  border: 1px solid #000;
   position: absolute;
   top: 0;
   left: 0;
@@ -11,14 +10,14 @@
 }
 .cube, .dot {
   border-radius: 3px;
-  background-color: #FFF;
+  background-color: #BCAAA4;
 }
 .dot {
   width: 15px;
   height: 15px;
   position: absolute;
   bottom: 0;
-  background-color: #000;
+  background-color: #EF9A9A;
   left: -7.5px;
 }
 .dot:last-child {
@@ -27,8 +26,4 @@
 .cube {
   width: 100px;
   height: 100px;
-}
-
-#animation {
-  background-color: #1a6aaf;
 }
