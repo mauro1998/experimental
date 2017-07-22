@@ -1,0 +1,15 @@
+#animation{
+  overflow: hidden;
+  position: relative;
+}
+.absolute {
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+}
+
+.woman {
+  width: 128px;
+  height: 128px;
+  background: url(sprite.png) 0 0;
+}
