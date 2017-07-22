@@ -9,7 +9,7 @@ Go ahead and feel free to fork it. Maybe you're gonna learn something new too :)
 The `index.html` file stores a table listing all the available demos, each one with its own link. 
 Just launch a simple server at the root of the project and start exploring it.
 
-`polyfill.js` is the [web-animations-api](https://github.com/web-animations/web-animations-js) polyfill.
+`polyfill.js` is the [web-animations-api](https://github.com/web-animations/web-animations-js) polyfill used by several demos.
 
 `template.html` is a basic html template to start creating a demo.
 
